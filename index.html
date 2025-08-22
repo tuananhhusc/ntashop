@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTA Shop - Cửa hàng phần mềm và dịch vụ số</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><i class="fas fa-shopping-cart"></i> NTA Shop</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Trang chủ</a></li>
+                    <li><a href="#products">Sản phẩm</a></li>
+                    <li><a href="#about">Giới thiệu</a></li>
+                    <li><a href="#contact">Liên hệ</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="cart-btn" id="cartBtn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Chào mừng đến với NTA Shop</h1>
+            <p>Nơi cung cấp các phần mềm và dịch vụ số chất lượng cao</p>
+            <a href="#products" class="cta-button">Khám phá ngay</a>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="container">
+            <h2>Danh mục sản phẩm</h2>
+            
+            <div class="category">
+                <h3><i class="fas fa-briefcase"></i> Làm Việc</h3>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/1.jpg" alt="Microsoft Office">
+                        </div>
+                        <h4>Microsoft Office</h4>
+                        <p>Bộ công cụ văn phòng hoàn chỉnh</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/222.jpg" alt="CamScanner Premium">
+                        </div>
+                        <h4>CamScanner Premium</h4>
+                        <p>Quét tài liệu chuyên nghiệp</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/3.png" alt="Notion">
+                        </div>
+                        <h4>Notion</h4>
+                        <p>Quản lý công việc và ghi chú</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <h3><i class="fas fa-graduation-cap"></i> Học Tập</h3>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/4.png" alt="Grammarly">
+                        </div>
+                        <h4>Grammarly</h4>
+                        <p>Kiểm tra ngữ pháp và chính tả</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/555.jpg" alt="Quizlet">
+                        </div>
+                        <h4>Quizlet</h4>
+                        <p>Học tập với thẻ ghi nhớ</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/6.png" alt="Datacamp">
+                        </div>
+                        <h4>Datacamp</h4>
+                        <p>Học lập trình trực tuyến</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/7.png" alt="QuillBot">
+                        </div>
+                        <h4>QuillBot</h4>
+                        <p>Viết lại văn bản thông minh</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/8.jpg" alt="Hello Chinese">
+                        </div>
+                        <h4>Hello Chinese</h4>
+                        <p>Học tiếng Trung hiệu quả</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/9.png" alt="Busuu">
+                        </div>
+                        <h4>Busuu</h4>
+                        <p>Học ngoại ngữ với người bản xứ</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/10.png" alt="JetBrains">
+                        </div>
+                        <h4>JetBrains All Products Pack</h4>
+                        <p>Bộ công cụ phát triển phần mềm</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <h3><i class="fas fa-photo-video"></i> Edit Ảnh - Video</h3>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/11.jpg" alt="Adobe Creative">
+                        </div>
+                        <h4>Adobe Creative</h4>
+                        <p>Bộ công cụ thiết kế chuyên nghiệp</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/12.png" alt="CapCut Pro">
+                        </div>
+                        <h4>CapCut Pro</h4>
+                        <p>Chỉnh sửa video chuyên nghiệp</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/13.png" alt="Freepik">
+                        </div>
+                        <h4>Freepik</h4>
+                        <p>Thư viện hình ảnh và vector</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/14.png" alt="Picsart">
+                        </div>
+                        <h4>Picsart</h4>
+                        <p>Chỉnh sửa ảnh và thiết kế</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/15.png" alt="HeyGen Create">
+                        </div>
+                        <h4>HeyGen Create</h4>
+                        <p>Tạo video AI chuyên nghiệp</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/16.jpg" alt="Doodly">
+                        </div>
+                        <h4>Doodly</h4>
+                        <p>Tạo video vẽ tay</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/17.jpg" alt="Wondershare Filmora">
+                        </div>
+                        <h4>Wondershare Filmora</h4>
+                        <p>Phần mềm chỉnh sửa video</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/18.jpg" alt="Photoroom">
+                        </div>
+                        <h4>Photoroom</h4>
+                        <p>Xóa nền ảnh AI</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category">
+                <h3><i class="fas fa-shield-alt"></i> VPN, Bảo mật mạng</h3>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/19.png" alt="HMA VPN">
+                        </div>
+                        <h4>HMA VPN</h4>
+                        <p>Bảo mật và ẩn danh trực tuyến</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/20.jpg" alt="ExpressVPN">
+                        </div>
+                        <h4>ExpressVPN</h4>
+                        <p>VPN tốc độ cao, bảo mật tuyệt đối</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/21.png" alt="AVG VPN">
+                        </div>
+                        <h4>AVG VPN</h4>
+                        <p>Bảo vệ quyền riêng tư</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/22.png" alt="Avast VPN">
+                        </div>
+                        <h4>Avast VPN</h4>
+                        <p>Ẩn danh và bảo mật</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/23.png" alt="AdGuard VPN">
+                        </div>
+                        <h4>AdGuard VPN</h4>
+                        <p>Chặn quảng cáo và bảo mật</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/24.png" alt="NordVPN">
+                        </div>
+                        <h4>NordVPN</h4>
+                        <p>Bảo mật toàn cầu</p>
+                        <button class="buy-btn">Mua ngay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <h3>Liên hệ</h3>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fab fa-facebook"></i>
+                    <a href="https://www.facebook.com/profile.php?id=615734008000000" target="_blank">Fanpage Facebook</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-telegram"></i>
+                    <a href="https://t.me/ntashop16222" target="_blank">Telegram</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:ntashop16222@gmail.com">Email</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-threads"></i>
+                    <a href="#" target="_blank">Thread</a>
+                </div>
+            </div>
+            <p>&copy; 2024 NTA Shop. Tất cả quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3><i class="fas fa-shopping-cart"></i> Giỏ hàng</h3>
+                <button class="close-cart" id="closeCart">&times;</button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <!-- Cart items will be added here -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span>Tổng cộng: <strong id="cartTotal">0</strong> sản phẩm</span>
+                </div>
+                <div class="cart-actions">
+                    <button class="clear-cart" id="clearCart">Xóa giỏ hàng</button>
+                    <button class="checkout-btn" id="checkoutBtn">Mua hàng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div class="checkout-modal" id="checkoutModal">
+        <div class="checkout-content">
+            <div class="checkout-header">
+                <h3><i class="fas fa-credit-card"></i> Thanh toán</h3>
+                <button class="close-checkout" id="closeCheckout">&times;</button>
+            </div>
+            <div class="checkout-body">
+                <div class="checkout-message">
+                    <i class="fas fa-info-circle"></i>
+                    <h4>Vui lòng liên hệ với chúng tôi để mua sản phẩm</h4>
+                    <p>Chúng tôi sẽ hỗ trợ bạn hoàn tất đơn hàng một cách nhanh chóng và thuận tiện nhất.</p>
+                </div>
+                <div class="contact-options">
+                    <h5>Liên hệ qua:</h5>
+                    <div class="contact-buttons">
+                        <a href="https://www.facebook.com/profile.php?id=615734008000000" target="_blank" class="contact-btn facebook">
+                            <i class="fab fa-facebook"></i>
+                            Facebook
+                        </a>
+                        <a href="https://t.me/ntashop16222" target="_blank" class="contact-btn telegram">
+                            <i class="fab fa-telegram"></i>
+                            Telegram
+                        </a>
+                        <a href="mailto:ntashop16222@gmail.com" class="contact-btn email">
+                            <i class="fas fa-envelope"></i>
+                            Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

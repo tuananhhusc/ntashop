@@ -1,0 +1,37 @@
+{
+  "name": "nta-shop",
+  "version": "1.0.0",
+  "description": "Trang web bán hàng NTA Shop - Cửa hàng phần mềm và dịch vụ số",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/",
+    "dev": "live-server --port=3000 --open=/ --watch=.",
+    "build": "echo 'Build completed'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "ecommerce",
+    "software",
+    "digital-services",
+    "vietnamese",
+    "shop",
+    "responsive",
+    "modern-ui"
+  ],
+  "author": "NTA Shop",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/nta-shop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/nta-shop/issues"
+  },
+  "homepage": "https://yourusername.github.io/nta-shop",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
